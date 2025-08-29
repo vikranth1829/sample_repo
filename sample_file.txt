@@ -19,7 +19,5 @@ public class FactorialNum {
     		result = i*fact(i-1);
     	    return result;
     	}
-    
-	
-    }
+}
 }
