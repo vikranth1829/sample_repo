@@ -1,0 +1,25 @@
+package JavaBasicsProgram;
+
+public class FactorialNum {
+
+	public static void main(String[] args) 
+	{
+    FactorialNum obj=new FactorialNum();
+    System.out.println(obj.fact(5));
+	}
+	public int fact(int i)
+    {
+    	int result;
+    	if (i==1)
+    	{
+    		return 1;
+    	}
+    	else
+    	{	
+    		result = i*fact(i-1);
+    	    return result;
+    	}
+    
+	
+    }
+}
